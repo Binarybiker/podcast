@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Offtopic</title>
+    <description>Podcast de opinión de temática variada.</description>
+    <link>https://tu-usuario.github.io/podcast/</link>
+    <language>es-es</language>
+    <copyright>&#169; 2026 Binarybiker. Licencia CC BY-NC-ND 4.0</copyright>
+
+    <itunes:author>Binarybiker</itunes:author>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>Binarybiker</itunes:name>
+      <itunes:email>contacto@binarybiker.men</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Technology" /> <itunes:image href="https://tu-usuario.github.io/podcast/banner.jpg" />
+
+    <item>
+      <title>Episodio 1: El inicio de la aventura</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>1</itunes:episode>
+      <description>En este primer episodio hablamos sobre cómo empezamos este proyecto.</description>
+      <pubDate>Fri, 10 Apr 2026 12:00:00 GMT</pubDate>
+      
+      <enclosure 
+        url="https://www.w3schools.com/html/horse.mp3" 
+        length="1048576" 
+        type="audio/mpeg" />
+      
+      <guid isPermaLink="false">episodio-1-id-unico</guid>
+      <itunes:duration>00:15:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+
+  </channel>
+</rss>

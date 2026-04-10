@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offtopic | Podcast</title>
+    <style>
+        /* Variables de color para personalizar fácil */
+        :root {
+            --color-principal: #2c3e50;
+            --color-acento: #e67e22;
+            --color-fondo: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--color-fondo);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabecera con imagen 16:9 */
+        .header-banner {
+            width: 100%;
+            height: 450px; /* Altura fija para el banner */
+            overflow: hidden;
+            position: relative;
+        }
+
+        .header-banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* MAGIA: Evita la deformación */
+            object-position: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: -50px auto 40px; /* Sube un poco el contenido sobre el banner */
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        h1 { color: var(--color-principal); margin-top: 0; }
+
+        .descripcion { font-size: 1.1em; color: #666; }
+
+        .botones { margin: 30px 0; }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 5px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover { transform: scale(1.05); }
+
+        .btn-rss { background-color: var(--color-acento); color: white; }
+        .btn-spotify { background-color: #1DB954; color: white; }
+        .btn-zoho { background-color: #0067ff; color: white; }
+
+        .footer { font-size: 0.8em; color: #888; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <header class="header-banner">
+        <img src="./images/banner.png" alt="Cabecera de mi Podcast">
+    </header>
+
+    <div class="container">
+        <h1>Bienvenidos a Offtopic</h1>
+        <p class="descripcion">
+            Estas en la página de un podcast de opinión (la mia 😁) de temática variada.
+        </p>
+
+        <div class="botones">
+            <a href="podcast.xml" class="btn btn-rss">Copiar Feed RSS</a>
+            <a href="#" class="btn btn-spotify">Escuchar en Spotify</a>
+            <a href="mailto:contacto@binarybiker.men" class="btn btn-zoho">Contactar por mail</a>
+        </div>
+
+        Ya sabes, si quieres añadir el podcast a tu aplicación pulsa "copiar feed"
+
+        <hr>
+
+        <h3><img src="https://img.shields.io/badge/PODCAST-DESTACADO-orange?style=for-the-badge&logo=podcast" alt="Destacado"> </h3>
+<div class="episodio">
+    <p><strong>Episodio 1:</strong> El inicio de la aventura</p>
+    <audio controls>
+        <source src="https://tu-archivo-en-internet-archive.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+</div>
+        <hr>
+
+
+        <h3><img src="https://img.shields.io/badge/NUEVOS-EPISODIOS-blue?style=for-the-badge&logo=rss" alt="Últimos"> </h3>
+        
+            <p><strong>Episodio 1:</strong> El inicio de la aventura</p>
+    <audio controls>
+        <source src="https://tu-archivo-en-internet-archive.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+        <hr>
+
+        <div class="footer">
+            &copy; 2026 Oftopic Podcast.
+            <p>
+              <img src="https://img.shields.io/badge/Hosted_on-GitHub_Pages-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages">
+              <img src="https://img.shields.io/badge/Audio_on-Internet_Archive-000000?flat-square&logo=internet-archive&logoColor=white" alt="Internet Archive">  
+            </p>
+            
+        </div>
+    </div>
+
+</body>
+</html>

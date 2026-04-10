@@ -24,7 +24,7 @@
         /* Cabecera con imagen 16:9 */
         .header-banner {
             width: 100%;
-            height: 400px; /* Altura fija para el banner */
+            height: 450px; /* Altura fija para el banner */
             overflow: hidden;
             position: relative;
         }
@@ -37,16 +37,16 @@
         }
 
         .container {
-            .contenedor {
-            max-width: 800px;    /* El ancho máximo que acordamos */
-            margin: 0 auto;      /* Centra el bloque entero en la pantalla */
-            padding: 0 40px;     /* El primer número es arriba/abajo, el segundo (40px) es izquierda/derecha */
-            box-sizing: border-box; /* Fundamental: hace que el margen no "ensanche" el contenedor */
-             }
+            max-width: 800px;
+            margin: -50px auto 40px; /* Sube un poco el contenido sobre el banner */
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            position: relative;
         }
 
-        h1, h3, p, ul { margin-left: 10px;
-                        margin-rigth: 10px;}
+        h1 { color: var(--color-principal); margin-top: 0; }
 
         .descripcion { font-size: 1.1em; color: #666; }
 
@@ -68,20 +68,16 @@
         .btn-spotify { background-color: #1DB954; color: white; }
         .btn-zoho { background-color: #0067ff; color: white; }
 
-        .episodio {
-    margin: 20px 10px;  /* Separa los episodios entre sí y les da margen lateral */
-}
-
         .footer { font-size: 0.8em; color: #888; margin-top: 40px; }
     </style>
 </head>
 <body>
-  <div class="container"></div>
+
     <header class="header-banner">
         <img src="./images/banner.png" alt="Cabecera de mi Podcast">
     </header>
 
-    
+    <div class="container">
         <h1>Bienvenidos a Offtopic</h1>
         <p class="descripcion">
             Estas en la página de un podcast de opinión (la mia 😁) de temática variada.

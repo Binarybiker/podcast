@@ -1,0 +1,2 @@
+*.rss binary=false interface=text/xml
+*.xml binary=false interface=text/xml

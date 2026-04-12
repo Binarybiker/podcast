@@ -20,6 +20,7 @@
 
     <item>
       <title>Episodio 0: El inicio de la aventura</title>
+      <link>https://binarybiker.github.io/podcast/</link>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>0</itunes:episode>
       <description>Apuntes sobre el autor y el proyecto.</description>

@@ -36,5 +36,23 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
 
+    <item>
+      <title>Episodio 1: Morir es parte del trabajo</title>
+      <link>https://binarybiker.github.io/podcast/</link>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>1</itunes:episode>
+      <description>Estaremos comentando la novela Mickey 7, un equilibrio perfecto entre acción y dilemas éticos. ¡Únete a la charla en nuestro grupo de Telegram! 👉https://t.me/CanalOfftopicPodcast</description>
+      <pubDate>Sat, 18 Apr 2026 23:00:00 GMT</pubDate>
+      
+      <enclosure 
+        url="https://archive.org/download/offtopic-podcast-tmp-01-ep-1_202604/2026-04-18_21h02m40s.mp3" 
+        length="56447434" 
+        type="audio/mpeg" />
+      
+      <guid isPermaLink="false">offtopic-podcast-t-1-ep-1</guid>
+      <itunes:duration>00:23:31</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+
   </channel>
 </rss>

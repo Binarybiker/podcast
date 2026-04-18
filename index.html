@@ -97,7 +97,7 @@
         <div>
             <p>
 
-            <a href="https://t.me/CanalOfftopicPodcast" target="_blank" alt="Canal Telegram"><img src="https://img.shields.io/badge/CANAL-TELEGRAM-yellow?style=for-the-badge&logo=podcast"</a>
+            <a href="https://t.me/CanalOfftopicPodcast" target="_blank" alt="Canal Telegram"><img src="https://img.shields.io/badge/CANAL-TELEGRAM-yellow?style=for-the-badge&logo=podcast"></a>
  
             </p>
         </div>
@@ -105,11 +105,11 @@
         <hr>
 
         <h3><img src="https://img.shields.io/badge/EPISODIO-DESTACADO-orange?style=for-the-badge&logo=podcast" alt="Destacado"> </h3>
-<div class="episodio">
+<div class="episodio" style="max-width: 400px; font-family: sans-serif;">
     <p><strong>Episodio 0:</strong> Aún no hay, podeis escuchar esta intro.</p>
-    <audio controls>
+    <audio controls style="width: 100%;">
         <source src="https://archive.org/download/offtopic-podcast/Podcast%20Offtopic_ok_10.mp3" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
+         Tu navegador no soporta el elemento de audio.
     </audio>
 </div>
         <hr>
@@ -117,11 +117,56 @@
 
         <h3><img src="https://img.shields.io/badge/NUEVOS-EPISODIOS-blue?style=for-the-badge&logo=rss" alt="Últimos"> </h3>
         
-            <p><strong>Episodio 0:</strong> El inicio de la aventura</p>
-    <audio controls>
-        <source src="https://archive.org/download/offtopic-podcast-tmp-01-ep-0/Offtopic%20Podcast%20Tmp01Ep0.mp3" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
+    
+
+        <div style="max-width: 400px; font-family: sans-serif;">
+    <audio id="main-player" controls style="width: 100%;">
+        <source id="audio-data" src="https://archive.org/download/offtopic-podcast-tmp-01-ep-0/Offtopic%20Podcast%20Tmp01Ep0.mp3" type="audio/mp3">
     </audio>
+
+    <h3 id="now-playing" style="font-size: 14px; color: #555;">Reproduciendo: </h3>
+
+    <ul id="podcast-list" style="list-style: none; padding: 0; border: 1px solid #ccc; border-radius: 5px;">
+        <li data-url="https://archive.org/download/offtopic-podcast/Offtopic%20Podcast.mp3" style="padding: 10px; cursor: pointer; border-bottom: 1px solid #eee;" onclick="playTrack(this)"><b>01.</b> Sintonia Completa</li>
+        <li data-url="https://archive.org/download/offtopic-podcast-tmp-01-ep-0/Offtopic%20Podcast%20Tmp01Ep0.mp3" style="padding: 10px; cursor: pointer; border-bottom: 1px solid #eee; background: #f9f9f9;" onclick="playTrack(this)"><b>02.</b> Episodio 0: El inicio de la aventura</li>
+        <li data-url="episodio1.mp3" style="padding: 10px; cursor: pointer; border-bottom: 1px solid #eee;" onclick="playTrack(this)"><b>03.</b> Proximamente</li>
+        <li data-url="episodio2.mp3" style="padding: 10px; cursor: pointer; border-bottom: 1px solid #eee;" onclick="playTrack(this)"><b>04.</b> Proximamente</li>
+        <li data-url="episodio3.mp3" style="padding: 10px; cursor: pointer;" onclick="playTrack(this)"><b>05.</b> Proximamente</li>
+    </ul>
+</div>
+
+<script>
+    function playTrack(element) {
+        const player = document.getElementById('main-player');
+        const displayTitle = document.getElementById('now-playing');
+        const listItems = document.querySelectorAll('#podcast-list li');
+
+        // 1. Cambiar el archivo de audio
+        player.src = element.getAttribute('data-url');
+        
+        // 2. Cambiar el texto de "Reproduciendo"
+        displayTitle.innerText = "Reproduciendo: " + element.innerText;
+
+        // 3. Resaltar el que está sonando
+        listItems.forEach(li => li.style.background = "white");
+        element.style.background = "rgba(144, 238, 144, 0.2)";
+
+        // 4. Darle al Play
+        player.play();
+    }
+
+    // Extra: Que al terminar uno, empiece el siguiente automáticamente
+    document.getElementById('main-player').onended = function() {
+        const current = [...document.querySelectorAll('#podcast-list li')].find(li => li.style.background === "rgb(225, 245, 254)");
+        if (current && current.nextElementSibling) {
+            current.nextElementSibling.click();
+        }
+    };
+</script>
+
+
+
+        
 
         <hr>
         <!-- Badge de Contacto para la Web -->

@@ -121,7 +121,7 @@
 
         <div style="max-width: 400px; font-family: sans-serif;">
     <audio id="main-player" controls style="width: 100%;">
-        <source id="audio-data" src="https://archive.org/download/offtopic-podcast-tmp-01-ep-0/Offtopic%20Podcast%20Tmp01Ep0.mp3" type="audio/mp3">
+        <source id="audio-data" src="https://archive.org/download/offtopic-podcast/Offtopic%20Podcast.mp3" type="audio/mp3">
     </audio>
 
     <h3 id="now-playing" style="font-size: 14px; color: #555;">Reproduciendo: </h3>
@@ -162,6 +162,17 @@
             current.nextElementSibling.click();
         }
     };
+
+
+
+    // Al cargar la página, actualizamos el título con el primer elemento de la lista
+window.onload = function() {
+    const primerEpisodio = document.querySelector('#podcast-list li');
+    const displayTitle = document.getElementById('now-playing');
+    if (primerEpisodio) {
+        displayTitle.innerText = "Reproduciendo: " + primerEpisodio.textContent.trim();
+    }
+};
 </script>
 
 

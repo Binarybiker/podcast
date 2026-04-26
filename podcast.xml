@@ -54,5 +54,27 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
 
+    <item>
+      <title>Del CD a Winamp: El MP3, mi vida antes del streaming 💿🎧.</title>
+      <link>https://binarybiker.github.io/podcast/</link>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>2</itunes:episode>
+      <description>¿Recuerdas el sonido del "látigo"? Viajamos a la era dorada del MP3 y lo que fue Winamp antes de Spotify. En este episodio recordamos a Winamp, los skins icónicos y el ritual de coleccionar música. Que paso con el reciente caos de su código fuente en GitHub y por qué su licencia "colaborativa" fracasó. Un viaje técnico y nostálgico del CD al streaming.
+        Enlaces de interés:
+       🔹 Grupo de Telegram: 👉 https://t.me/CanalOfftopicPodcast
+</description>
+      <pubDate>Sun, 26 Apr 2026 23:00:00 GMT</pubDate>
+      
+      <enclosure 
+        url="https://archive.org/download/offtopicpodcast_tmp01_ep02/Winamp.mp3" 
+        length="83431924" 
+        type="audio/mpeg" />
+      
+      <guid isPermaLink="false">offtopic-podcast-t-1-ep-1</guid>
+      <itunes:duration>00:34:46</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+
+
   </channel>
 </rss>

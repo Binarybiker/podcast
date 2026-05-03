@@ -74,6 +74,31 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
 
+    <item>
+      <title>☢️ UN PINGÜINO EN EL MBR 🐧: Confesiones de un desertor tecnologico ☢️</title>
+      <link>https://binarybiker.github.io/podcast/</link>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>3</itunes:episode>
+      <description>Estás trabajando, tienes prisa y, de repente: "Preparando actualizaciones, no apague el equipo". En ese momento te das cuenta de que eres el último en la lista de prioridades de tu propio ordenador.
+
+Desde una perspectiva puramente subjetiva. Hablo del cansancio de acumular procesos inútiles, de la telemetría y de la sensación de alivio al recuperar el control.
+
+¿Es Linux el paraíso o simplemente un acto de rebeldía? Acompáñame en esta crónica de una deserción tecnológica anunciada. Una reflexión sobre quién trabaja para quién en la era del software privativo.
+
+🔹 Grupo de Telegram: 👉 https://t.me/CanalOfftopicPodcast
+🔹 Web oficial: 👉 https:www.binarybiker.men</description>
+      <pubDate>Fri, 01 May 2026 23:00:00 GMT</pubDate>
+      
+      <enclosure 
+        url="https://dts.podtrac.com/redirect.mp3/archive.org/download/unPinguinoEnElMBR2/unPinguinoEnElMBR2.mp3" 
+        length="51904218" 
+        type="audio/mpeg" />
+      
+      <guid isPermaLink="false">offtopic-podcast-t-1-ep-3</guid>
+      <itunes:duration>00:21:23</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+
 
   </channel>
 </rss>

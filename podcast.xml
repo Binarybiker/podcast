@@ -86,7 +86,7 @@ Desde una perspectiva puramente subjetiva. Hablo del cansancio de acumular proce
 ¿Es Linux el paraíso o simplemente un acto de rebeldía? Acompáñame en esta crónica de una deserción tecnológica anunciada. Una reflexión sobre quién trabaja para quién en la era del software privativo.
 
 🔹 Grupo de Telegram: 👉 https://t.me/CanalOfftopicPodcast
-🔹 Web oficial: 👉 https:www.binarybiker.men</description>
+🔹 Web oficial: 👉 https://www.binarybiker.men</description>
       <pubDate>Fri, 01 May 2026 23:00:00 GMT</pubDate>
       
       <enclosure 
@@ -96,6 +96,30 @@ Desde una perspectiva puramente subjetiva. Hablo del cansancio de acumular proce
       
       <guid isPermaLink="false">offtopic-podcast-t-1-ep-3</guid>
       <itunes:duration>00:21:23</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+
+
+    <item>
+      <title>♻️ Hardware con Segunda Vida: El Manual del Chatarrero Digital</title>
+      <link>https://binarybiker.github.io/podcast/</link>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>4</itunes:episode>
+      <description>¿Es basura o solo necesita un poco de cariño? 🛠️💻
+
+    Soy un "chatarrero digital" 🚀. Te cuento por qué rescatar móviles, cámaras y ordenadores que otros dan por perdidos, Comprar de segunda mano es, posiblemente, el acto más ecológico que puedes hacer hoy en día. No siempre lo más nuevo es lo mejor. A veces, la verdadera potencia está escondida bajo una capa de polvo. 
+Enlaces de interés:
+       🔹 Grupo de Telegram: 👉 https://t.me/CanalOfftopicPodcast
+🔹 Web oficial: 👉 https://www.binarybiker.men</description>
+      <pubDate>Mon, 11 May 2026 22:00:00 GMT</pubDate>
+      
+      <enclosure 
+        url="https://dts.podtrac.com/redirect.mp3/archive.org/download/chatarrero-digital/ChatarreroDigital.mp3" 
+        length="63355255" 
+        type="audio/mpeg" />
+      
+      <guid isPermaLink="false">offtopic-podcast-t-1-ep-4</guid>
+      <itunes:duration>00:26:23</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
 
